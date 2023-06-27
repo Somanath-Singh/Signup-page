@@ -1,0 +1,128 @@
+.effect1{
+    background: rgb(7, 92, 248);
+    border-radius: 67px;
+    color: white;
+}
+.effect1:hover{
+    background: rgb(0, 68, 255);
+    transition: 0.5s;
+}
+.effect2{
+    background: transparent;
+    color: rgb(0, 34, 255);
+}
+.effect2:hover{
+    background: violet;
+    border-radius: 67px;
+    transition: 0.5s;
+}
+.effect3{
+    background: rgb(255, 68, 0);
+    border-radius: 67px;
+    color: white;
+}
+.effect3:hover{
+    background: rgb(3, 3, 255);
+    border-radius: 67px;
+    transition: 0.5s;
+}
+.effect4{
+    background: rgb(95, 15, 255);
+    border-radius: 67px;
+    color: white;
+}
+.effect4:hover{
+    background: rgb(95, 15, 255);
+    border-radius: 67px;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(20, 121, 209);
+}
+.sub-container{
+    flex-basis: 290px;
+    height: 459px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14px;
+    box-shadow: 1px 1px 15px black;
+}
+.image-container{
+    flex-basis: 290px;
+    background-image: url("./media/photo-mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 459px; 
+    border-radius: 5px;
+    padding: 14px;
+    box-shadow: 1px 1px 15px black;
+    
+}
+.image-container img{
+    
+}
+.sub-container input{
+    width: 250px;
+    height: 31px;
+    box-shadow: 1px 1px 8px rgb(192, 188, 188);
+    border: none;
+    border-radius: 67px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.sub-container h5,h4{
+    color: rgb(83, 86, 85);
+}
+.sub-container h5 a{
+    text-decoration: none;
+    color: rgb(0, 145, 255);
+}
+.sub-container button{
+    width: 250px;
+    height: 31px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+.fa-facebook{
+   color: rgb(253, 253, 253);
+   padding: 2px;
+   font-size: 21px;
+}
+.fa-google{
+    color: rgb(0, 94, 255);
+    font-size: 21px;
+}
+@media(max-width:700px){
+    .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    background: rgb(20, 121, 209);
+}
+.sub-container{
+    flex-basis: 250px;
+    height: 459px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 1px 1px 15px black;
+}
+.image-container{
+    display: none;
+}
+}
